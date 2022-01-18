@@ -10,6 +10,6 @@ cd ${AML_PATH} && git checkout $1
 
 cd aml_scripts
 
-./install_${ROS_DISTRO}_deps.sh
+./install_melodic_deps.sh
 
 source setup_rospkg_deps.sh
